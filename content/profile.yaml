@@ -1,0 +1,26 @@
+- profile:
+  initials: LV
+  name: Leo Vincent
+  profession: Web Developer
+  image: images/profile.png
+  location: San Fransico, USA
+  relocation: true
+  company: Freelance
+  for_hire: true
+  focus: Learning React
+  focus_url: https://reactjs.org/
+  about: |
+    As a full stack developer, I utilize Javascript, CSS, HTML, and React to develop apps that make others’ lives easier. My unique background as an audio/visual technician gives me the ability to learn quickly; and solve problems while under pressure. As someone who prefers to be multi-talented over hyper focused, I adapt quickly and easily to changes. This and my background gives me a perspective which allows me so see creative solutions that others might not.
+  skills:
+    - JavaScript
+    - HTML / CSS
+    - postgreSQL
+  tools:
+    - React
+    - VSCode
+    - Github
+  budget:
+    currency: $
+    min: 5
+    max: 30
+    default: 10
