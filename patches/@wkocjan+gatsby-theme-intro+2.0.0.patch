@@ -1,0 +1,36 @@
+diff --git a/node_modules/@wkocjan/gatsby-theme-intro/src/components/contact-form/contact-form.js b/node_modules/@wkocjan/gatsby-theme-intro/src/components/contact-form/contact-form.js
+index 7f2157d..5d8c106 100644
+--- a/node_modules/@wkocjan/gatsby-theme-intro/src/components/contact-form/contact-form.js
++++ b/node_modules/@wkocjan/gatsby-theme-intro/src/components/contact-form/contact-form.js
+@@ -13,10 +13,20 @@ const ContactForm = ({ formspreeEndpoint, budget }) => {
+         className="font-header font-semibold text-front text-sm uppercase mt-12 mb-3"
+         id="contact"
+       >
+-        Contact
++        <b>Contact me:</b>
++        <br />
+       </h5>
++      <ul>
++        <li>leov1963@gmail.com</li>
++      </ul>
+ 
+-      <form action={formspreeEndpoint} className="flex flex-wrap" method="post">
++      
++      
++      <a className="flex font-header font-semibold px-2 bg-lead rounded-full text-lead-text justify-center items-center leading-tight lg:w-auto lg:h-auto lg:px-6 lg:py-2 lg:rounded-lg lg:self-start lg:mt-4 hover:opacity-75 transition-opacity duration-150" href="https://drive.google.com/file/d/1qcvgXXCr-xqTyPzAves93KYyM7TCDZY3/view?usp=sharing" target="_blank">My Resume</a>
++      
++      
++
++      {/* <form action={formspreeEndpoint} className="flex flex-wrap" method="post">
+         <div className="flex flex-wrap w-full">
+           <div className="w-full lg:w-1/3 py-px lg:px-px">
+             <input
+@@ -135,7 +145,7 @@ const ContactForm = ({ formspreeEndpoint, budget }) => {
+             />
+           </div>
+         </div>
+-      </form>
++      </form> */}
+     </>
+   )
+ }
