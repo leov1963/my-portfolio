@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "postinstall": "npx patch-package",
   "dependencies": {
     "@wkocjan/gatsby-theme-intro": "^2.0.0",
     "gatsby": "^3.3.0",
